@@ -45,8 +45,8 @@
 					<li class="nav-item"> <a class="nav-link" wire:navigate href="{{ route('home') }}">Home</a></li>
 					<li class="nav-item "> <a class="nav-link" wire:navigate href="#" >About Us</a></li>
 					<li class="nav-item "> <a class="nav-link" wire:navigate href="{{ route('service') }}">Services</a></li>
-					<li class="nav-item "> <a class="nav-link" wire:navigate href="team.html">Our Team</a></li>
-					<li class="nav-item "><a class="nav-link " wire:navigate href="blog.html">Blog</a></li>
+					<li class="nav-item "> <a class="nav-link" wire:navigate href="{{ route('team') }}">Our Team</a></li>
+					<li class="nav-item "><a class="nav-link " wire:navigate href="{{ route('blog') }}">Blog</a></li>
 					<li class="nav-item "><a class="nav-link " wire:navigate href="faq.html">FAQ</a></li>
 				</ul>
 				<a href="#!" class="btn btn-outline-primary">Contact Us</a>				

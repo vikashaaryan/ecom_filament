@@ -4,15 +4,12 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Member extends Model
+class Category extends Model
 {
     protected $fillable = [
         'name',
-        'designation',
-        'fb_url',
-        'tw_url',
-        'in_url',
-        'image',
+        'slug',
+        'description',
         'status',
     ];
 }
